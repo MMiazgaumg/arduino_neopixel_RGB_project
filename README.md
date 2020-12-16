@@ -5,6 +5,7 @@ Przy wykorzystaniu:
 - arduino uno, 
 - pasek led RGB WS2813B, 
 - 4 x przcisków ,
+- zasilacz,
 
 Po przycisnięciu przycisku, będą zmieniały się kolory i działanie ledów:
 - Przycisk pierwszy ma powodować, że ledy będą przechodzić między kolorami po kolei,
