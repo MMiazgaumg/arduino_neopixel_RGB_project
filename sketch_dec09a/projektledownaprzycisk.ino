@@ -22,7 +22,7 @@ void loop()  {
 
     
 if (isButtonPressed(buttonPin1)){ // pierwsza funkcja naprzemiennie zmieniają się kolory 
-  for (int i = 0; i < 10000; i++){
+  for (int i = 0; i < 1000000; i++){
 colorchanges(strip.Color(  127,   127, 50), 10); 
 colorchanges(strip.Color(  127,   0, 255), 10); // przypisanie koloru
 colorchanges(strip.Color(255,   0,   0), 10);
@@ -35,7 +35,7 @@ break;
 
 
   if (isButtonPressed(buttonPin2)){ //druga funkcja mruganie paska poszczególnymi kolorami
-     for (int i = 0; i < 10000; i++){
+     for (int i = 0; i < 1000000; i++){
   blinkingcolor(strip.Color(127, 127, 127), 10); //przypisanie koloru
   blinkingcolor(strip.Color(127,   0,   0), 10); 
   blinkingcolor(strip.Color(  0,   0, 127), 10); 
@@ -45,7 +45,7 @@ break;
   }
 
  if (isButtonPressed(buttonPin3)){ //trzecia funckja mruganie policyjnych świateł
-   for (int i = 0; i < 10000; i++){
+   for (int i = 0; i < 1000000; i++){
   bomby2(strip.Color(  0,   0, 255), 10); 
   bomby(strip.Color(0,   0,   255), 10); //przypisanie niebieskich światełe
   bomby3(strip.Color(0,   0,   255), 10);
@@ -60,7 +60,7 @@ break;
   }
   }
 if (isButtonPressed(buttonPin4)){ //czwarta funkcja przechodząca tęcza
-   for (int i = 0; i < 10000; i++){
+   for (int i = 0; i < 1000000; i++){
         rainbow(10); 
 if (isButtonPressedoff(buttonPin5))//podczas kliknięcia przycisku 5 kończymy pętle i przechodzimmy do funkcji przypisanej na 5 przycisku
 break;
