@@ -18,8 +18,11 @@ Układ po przycisnięciu przycisku, będzie wykonywał różne funkcje:
 - Przycisk czwarty będzie powodował tworzenie tęczy płynnie przechodzącej po pasku led,
 - Przycisk piąty będzie służył do czyszczenia paska led oraz umożliwienie włączenia innej funkcji.
 
-##
-
+## Wykonany układ na zdjęciach
+![Zdjęcie układu](image2.jpeg)
+![Zdjęcie układu](image3.jpeg)
+![Zdjęcie układu](image4.jpeg)
+![Zdjęcie układu](image5.jpeg)
 
 
 https://youtu.be/r7FylPGo1qg
